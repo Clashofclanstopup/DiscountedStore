@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+ 
+}
+body{
+  background:black;
+}
+#main{
+  padding:2px;
+  height:100vh;
+  width:100%;
+  position:relative;
+  background:black;
+  color:white;
+}
+span{
+  color:#1cff32dc;
+}
+button{
+  padding:0 5px ;
+}
+#ref{
+  padding-left:2px;
+}
+#scrollable{
+  psotion:relative;
+  max-height:450px;
+  max-width:100%;
+  overflow-y:auto;
+  background:white;
+}
+#scrollup{
+  
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-60%);
+  font-weight:bold;
+  font-size:32px;
+  color: #fff; /* Color of the text */
+color: #000; /* Color of the text */
+  text-shadow: 
+    -3px -3px 0 #fff,  
+    3px -3px 0 #fff,
+    -3px 3px 0 #fff,
+    3px 3px 0 #fff;
+}
+img{
+  width:100%;
+}
